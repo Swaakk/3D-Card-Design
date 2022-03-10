@@ -18,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .card{
@@ -29,7 +30,8 @@ body{
     width: 50%;
     border-radius: 5px;
     padding: 30px;
-    box-shadow: 0 2px 4px rgb(0,0,0,02)
+    box-shadow: 0 2px 4px rgb(0,0,0,02);
+    transform-style: preserve-3d;
 }
 
 

@@ -3,8 +3,8 @@ let card = document.querySelector(".card");
 
 
 container.addEventListener("mousemove",(e)=>{
-    let xAxis = window.innerWidth - e.pageX
-    let yAxis = window.innerHeight - e.pageY
+    let xAxis = (window.innerWidth/2 - e.pageX) / 20
+    let yAxis = (window.innerHeight/2 - e.pageY) /20
 
     card.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`
 })
