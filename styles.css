@@ -1,3 +1,5 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Poppins";
     font-size: 16px;
 }
 
@@ -36,7 +38,7 @@ body{
 }
 
 .card img{
-    width: 150px;
+    width: 200px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -66,5 +68,12 @@ body{
 }
 
 .cta-btn{
-    
+    display: block;
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 13px;
+    border-radius: 5px;
+    font-size: 18px;
 }
